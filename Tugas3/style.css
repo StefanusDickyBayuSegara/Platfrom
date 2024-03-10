@@ -4,7 +4,7 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     color: #333333;
-
+    display: grid;
     background-image: url(image/Background\ Ramadan.jpg);
 }
 
@@ -13,6 +13,7 @@ header {
     color: #fff;
     padding: 10px 0;
     text-align: center;
+    grid-row: 1;
 }
 
 .navbar {
@@ -61,11 +62,19 @@ section {
     margin: 10px;
     background-color: #fff;
     border-radius: 5px;
+    grid-row: 2;
+    display: grid;
 }
 
 .food-item {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.Toko-item{
+    display: flex;
+    justify-content: center;
     align-items: center;
     margin-bottom: 20px;
 }
@@ -85,14 +94,6 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    grid-row: 3;
     
-}
-.social-icon {
-    color: yellow; /* Warna ikon */
-    font-size: 24px; /* Ukuran ikon */
-    margin-left: 10px; /* Jarak antara ikon dengan teks sebelumnya */
-}
-
-.social-icon:hover {
-    color: yellow; /* Warna ikon saat dihover */
 }

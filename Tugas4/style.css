@@ -3,16 +3,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: grey;
-    background-image: url(image/background_body1.jpeg);
-}
-header {
-    background-image: url(image/Background\ 1.jpeg);
-    background-color: #333;
+    background-image: url('image/background_body1.jpeg');
     background-size: cover;
-    color:white;
-    text-align: center;
-    padding: 10px;
 }
 .container {
     margin: 20px auto;
@@ -22,10 +14,37 @@ header {
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+header {
+    background-image: url('image/Background 1.jpeg');
+    background-color: #333;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 20px;
+}
+.header h1 {
+    margin: 0;
+    padding: 10px;
+}
+.header p {
+    margin: 0;
+    padding: 5px;
+}
+.foto-profil {
+    text-align: center;
+}
+.foto-profil img {
+    border-radius: 50%;
+    margin-top: 10px;
+}
+form {
+    margin-bottom: 20px;
+}
 input[type="text"],
 input[type="number"],
-input[type="submit"],
-select {
+input[type="submit"] {
     width: 100%;
     padding: 8px;
     margin-top: 5px;
@@ -41,7 +60,7 @@ input[type="submit"] {
     cursor: pointer;
 }
 input[type="submit"]:hover {
-    background-color:blue;
+    background-color: #4c8caf;
 }
 .options {
     display: none;
@@ -58,4 +77,9 @@ input[type="submit"]:hover {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
-    
+.radio-group {
+    margin-top: 20px;
+}
+.radio-item {
+    margin-bottom: 5px;
+}
